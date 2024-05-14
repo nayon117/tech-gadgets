@@ -1,0 +1,1 @@
+//here is types for those data who are going to database

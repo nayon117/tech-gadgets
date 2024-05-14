@@ -1,9 +1,10 @@
+import React from "react";
 
-const RootLayout = () => {
+const RootLayout = ({children}:{children:React.ReactNode}) => {
     return (
         <section className=''>
             <div className=''>
-                Welcome to RootLayout
+                {children}
             </div>
         </section>
     )
