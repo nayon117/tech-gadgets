@@ -53,6 +53,13 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.input {
+  @apply  border border-gray-200 text-gray-900 text-sm rounded-lg  block w-full p-2.5 mt-2.5 font-normal shadow-light-100 dark:shadow-dark-100;
+}
+
+.textarea {
+  @apply block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-200  mt-2.5 font-normal shadow-light-100 dark:shadow-dark-100;
+}
 .custom-scrollbar::-webkit-scrollbar {
   width: 3px;
   height: 3px;

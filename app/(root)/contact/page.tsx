@@ -1,11 +1,10 @@
+import ContactForm from "@/components/forms/ContactForm";
 
 const ContactPage = () => {
-    return (
-        <section className=''>
-            <div className=''>
-                Welcome to ContactPage
-            </div>
-        </section>
-    )
-}
+  return (
+    <section>
+      <ContactForm />
+    </section>
+  );
+};
 export default ContactPage;
