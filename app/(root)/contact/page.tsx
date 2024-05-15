@@ -1,9 +1,10 @@
+import ContactForm from "@/components/forms/ContactForm";
 
 const ContactPage = () => {
     return (
         <section className=''>
             <div className=''>
-                Welcome to ContactPage
+                <ContactForm/>
             </div>
         </section>
     )
