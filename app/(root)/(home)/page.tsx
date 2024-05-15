@@ -1,9 +1,10 @@
+import Banner from "@/components/shared/Banner";
 
 const HomePage = () => {
     return (
         <section className=''>
             <div className=''>
-                Welcome to HomePage
+                <Banner />
             </div>
         </section>
     )
