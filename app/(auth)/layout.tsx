@@ -1,11 +1,11 @@
+import React from "react";
 
-const AuthLayout = () => {
-    return (
-        <section className=''>
-            <div className=''>
-                Welcome to AuthLayout
-            </div>
-        </section>
+
+const Layout = ({children}:{children:React.ReactNode}) => {
+    return(
+        <main className="flex min-h-screen w-full items-center justify-center">
+              {children}
+        </main>
     )
 }
-export default AuthLayout;
+export default Layout;
