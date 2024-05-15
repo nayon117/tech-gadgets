@@ -1,7 +1,5 @@
-"use client"
+"use client";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-// import Theme from "./Theme";
-
 import Image from "next/image";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
@@ -10,9 +8,8 @@ import { navbarLinks } from "@/constants";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 
-
 const Navbar = () => {
-    const pathname = usePathname()
+  const pathname = usePathname();
   return (
     <nav className="background-light900_dark200 fixed z-50 flex  w-full items-center justify-between gap-5 p-6 shadow-light-300 dark:shadow-none sm:px-12">
       <Link className="flex items-center gap-1" href="/">
@@ -51,21 +48,23 @@ const Navbar = () => {
       <div className="flex items-center">
         <Theme />
         <SignedOut>
-        <div className="flex gap-2">
-          <Link href="/sign-in">
-            <Button className="small-medium btn min-h-[41px] w-full rounded px-4 py-3 shadow-none">
-              <Image
-                src="/assets/icons/account.svg"
-                alt="login"
-                width={20}
-                height={20}
-                className="invert-colors lg:hidden"
-              />
-              <span className="primary-text-gradient max-lg:hidden">Log In</span>
-            </Button>
-          </Link>
-        </div>
-      </SignedOut>
+          <div className="flex gap-2">
+            <Link href="/sign-in">
+              <Button className="small-medium btn min-h-[41px] w-full rounded px-4 py-3 shadow-none">
+                <Image
+                  src="/assets/icons/account.svg"
+                  alt="login"
+                  width={20}
+                  height={20}
+                  className="invert-colors lg:hidden"
+                />
+                <span className="primary-text-gradient max-lg:hidden">
+                  Log In
+                </span>
+              </Button>
+            </Link>
+          </div>
+        </SignedOut>
         <SignedIn>
           <UserButton
             afterSignOutUrl="/"
