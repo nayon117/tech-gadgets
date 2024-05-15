@@ -37,9 +37,9 @@ body {
   }
   
   .active-theme {
-  filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(0deg)
-  brightness(104%) contrast(106%) !important;
+    filter: invert(10%) sepia(90%) saturate(150%) hue-rotate(180deg) brightness(100%) contrast(100%) !important;
   }
+  
 .light-gradient {
   background: linear-gradient(
     132deg,
