@@ -1,11 +1,5 @@
-
-const SignIn = () => {
-    return (
-        <section className=''>
-            <div className=''>
-                Welcome to SignIn
-            </div>
-        </section>
-    )
+import { SignIn } from "@clerk/nextjs";
+ 
+export default function SignInPage() {
+  return <SignIn />;
 }
-export default SignIn;
