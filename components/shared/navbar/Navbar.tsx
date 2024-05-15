@@ -20,7 +20,8 @@ const Navbar = () => {
           width={23}
         />
         <p className="h2-bold text-dark-100 dark:text-light-900 max-sm:hidden">
-          Tech<span className="text-secondary">Gadgets</span>
+          Tech
+          <span className="primary-text-gradient text-light-900">Gadgets</span>
         </p>
       </Link>
 
@@ -36,7 +37,7 @@ const Navbar = () => {
               className={`${isActive ? "primary-gradient rounded-lg text-light-900 " : "text-dark300_light900"} flex items-center justify-start gap-4 bg-transparent md:p-2 `}
             >
               <p
-                className={`${isActive ? "font-bold" : "font-medium text-gray-500"} max-lg:hidden`}
+                className={`${isActive ? "font-bold" : "text-dark200_light800 font-medium"} max-lg:hidden`}
               >
                 {item.label}
               </p>
@@ -50,7 +51,7 @@ const Navbar = () => {
         <SignedOut>
           <div className="flex gap-2">
             <Link href="/sign-in">
-              <Button className="small-medium btn min-h-[41px] w-full rounded px-4 py-3 shadow-none">
+              <Button className="small-medium btn  min-h-[41px] w-full rounded px-4 py-3 shadow-none">
                 <Image
                   src="/assets/icons/account.svg"
                   alt="login"
@@ -58,7 +59,7 @@ const Navbar = () => {
                   height={20}
                   className="invert-colors lg:hidden"
                 />
-                <span className="primary-text-gradient max-lg:hidden">
+                <span className="text-dark200_light800 max-lg:hidden">
                   Log In
                 </span>
               </Button>
