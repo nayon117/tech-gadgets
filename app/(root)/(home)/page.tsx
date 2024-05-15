@@ -1,3 +1,4 @@
+import About from "@/components/shared/About";
 import Banner from "@/components/shared/Banner";
 
 const HomePage = () => {
@@ -5,6 +6,7 @@ const HomePage = () => {
         <section className=''>
             <div className=''>
                 <Banner />
+                <About/>
             </div>
         </section>
     )

@@ -46,7 +46,7 @@ export const slides: slidesLink[] = [
       subtitle:"Upgrade your tech game with the latest gadgets from our store. From smartphones to smart home devices, we have everything you need to stay connected and entertained. Shop now and experience the future of technology!",
     },
     {
-      imgUrl:"https://i.ibb.co/7GmFGhc/peter-geo-p-Ff-ZDa-TVdtc-unsplash.jpg",
+      imgUrl:"https://i.ibb.co/pfHQSgX/jens-kreuter-ng-Mts-E5r9e-I-unsplash.jpg",
       title: "Discover the Best Tech Gadgets for Your Needs",
       subtitle:"Discover the best tech gadgets for your needs at our store. Whether you're looking for a new smartphone, tablet, or smartwatch, we have everything you need to stay connected and entertained. Shop now and experience the future of technology!",
     }
