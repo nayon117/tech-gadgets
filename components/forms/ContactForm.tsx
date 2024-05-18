@@ -42,7 +42,7 @@ const ContactForm = () => {
   return (
     <section className="relative mb-8 flex flex-col items-center justify-between gap-6 md:flex-row">
       <div className="flex w-full flex-1 flex-col">
-        <h1 className="h1-bold text-dark100_light900">Get In Touch</h1>
+        <h1 className=" text-dark100_light900 h1-bold">Get In Touch</h1>
 
         <form
           onSubmit={handleSubmit}
