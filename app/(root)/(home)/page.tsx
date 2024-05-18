@@ -5,13 +5,11 @@ import Testimonial from "@/components/shared/Testimonial";
 
 const HomePage = () => {
     return (
-        <section className=''>
-            <div className=''>
+        <section className=''>          
                 <Banner />
                 <About/>
                 <Testimonial/>
                 <Newsletter/>
-            </div>
         </section>
     )
 }
